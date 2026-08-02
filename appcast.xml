@@ -3,6 +3,37 @@
     <channel>
         <title>AutoHackGUI</title>
         <item>
+            <title>1.4.20260802</title>
+            <pubDate>Sun, 02 Aug 2026 04:43:52 +0000</pubDate>
+            <sparkle:version>20260802</sparkle:version>
+            <sparkle:shortVersionString>1.4.20260802</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>🎉 AutoHackGUI v1.4.20260802</h2>
+
+<h3>📦 依赖更新</h3>
+<ul>
+<li>1. update SenPlayer  2. Refactor Swift string func</li>
+<li>Proxyman Version 6.12.0 (61200)</li>
+<li>Update Paste 6.x</li>
+<li>Update Screens5</li>
+<li>Update skill.md</li>
+<li>added NTFS for Tuxera 26</li>
+<li>added the hookWithMachineCode function so that if the signature scan returns multiple results, we can specify which one to patch</li>
+<li>decodeDataStorageStringU8</li>
+<li>feat: ida 9.4</li>
+<li>fixed: SWIFTCALL , Bolt AI</li>
+<li>fixed: Screens 5</li>
+<li>format</li>
+</ul>
+
+<h3>📝 更新说明</h3>
+<ul>
+<li>同步上游 dylib 更新,由定时任务自动发布。</li>
+</ul>
+]]></description>
+            <enclosure url="https://github.com/marlkiller/AutoHackGUI-Releases/releases/download/v1.4.20260802/AutoHackGUI_1.4.20260802.dmg" length="5727746" type="application/octet-stream" sparkle:edSignature="C2d5FpT4PbcZEtdaaVCYkkc2qa/g2npuEH+Fu0g4MIaVRKaNfYi9wG4YXXoMhnqXsD5vaDspkc7ct6FTU0e4BA=="/>
+        </item>
+        <item>
             <title>1.4</title>
             <pubDate>Sat, 30 May 2026 08:31:21 +0000</pubDate>
             <sparkle:version>104</sparkle:version>
@@ -66,31 +97,6 @@
 </ul>
 ]]></description>
             <enclosure url="https://github.com/marlkiller/AutoHackGUI-Releases/releases/download/v1.3/AutoHackGUI_1.3.dmg" length="4787299" type="application/octet-stream" sparkle:edSignature="GkdTE6OeW87DRAxQVHrwx71ch4x6VHpd9Z+B8X0gUDXKAGGrKP22UNU8P8VwPC5fZcR9DMnhx2rTNenUlkurDg=="/>
-        </item>
-        <item>
-            <title>1.2</title>
-            <pubDate>Tue, 28 Apr 2026 12:00:54 +0000</pubDate>
-            <sparkle:version>102</sparkle:version>
-            <sparkle:shortVersionString>1.2</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h2>🎉 AutoHackGUI v1.2</h2>
-
-<p>一个现代、优雅的 macOS 图形工具，助你高效管理 APP 注入配置与操作，支持密码注入与 Helper 注入。</p>
-
-<h3>🚀 新增功能</h3>
-<ul>
-<li><strong>优化 Signature 视图</strong>：新增树形结构浏览，默认预览主程序签名与 entitlements，并支持点击切换目标。</li>
-<li><strong>拖放添加临时 App</strong>：支持直接拖放 .app 文件到侧边栏，自动选中并滚动到新添加的应用。</li>
-</ul>
-
-<h3>🐛 修复和改进</h3>
-<ul>
-<li>Signature Tree 默认展开两层，仅展示可签名的 Mach-O / Bundle 目标。</li>
-<li>为 Signature Tree 添加右键 <strong>Show in Finder/Check Insert Space</strong> 菜单。</li>
-</ul>
-
-<h3>🙏 致谢</h3>]]></description>
-            <enclosure url="https://github.com/marlkiller/AutoHackGUI-Releases/releases/download/v1.2/AutoHackGUI_1.2.dmg" length="3963172" type="application/octet-stream" sparkle:edSignature="JX3Rh+KbyJn6zdo1iWU1M0HYowj7S3eEhet4KlfzcmnS4XHpJJ1S7jlo8kQstn4rh6wIT7T+hmiirM+i9j3HDQ=="/>
         </item>
         <item>
             <title>0.9-rc3</title>
